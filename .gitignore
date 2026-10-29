@@ -1,0 +1,30 @@
+# Vendor firmware, BCF and ROM dumps: Morse Micro property, kept locally only (see README)
+*.bin
+*.rom
+*.elf
+*.mem
+*.bndb
+rom/pages/
+
+# Build outputs and generated import libs
+driver/build/
+*.obj
+*.exp
+*.lib
+*.def
+*.dll
+*.exe
+*.o
+
+# Captures and experiment data
+*.cs16
+*.cs8
+*.npy
+*.npz
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+pylib/
